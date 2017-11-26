@@ -1,7 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:edit, :update, :show, :destroy]
   
-  
   def index
     @articles = Article.all
   end
@@ -12,8 +11,6 @@ class ArticlesController < ApplicationController
   
   def edit
   end
-  
-  
   
   def create
     @article = Article.new(article_params)
@@ -26,7 +23,6 @@ class ArticlesController < ApplicationController
     end
     
   end
-  
   
   def update
     if @article.update(article_params)
