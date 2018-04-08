@@ -1,1 +1,5 @@
 This is the first draft of the Alpha-Blog App
+
+Made with Ruby on Rails and Twitter's Bootstrap framework
+
+Developed through a Udemy course
